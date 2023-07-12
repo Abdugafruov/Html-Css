@@ -1,0 +1,119 @@
+body{
+    margin: 15px 0;
+}
+.radiyus{
+    display: flex;
+    flex-direction: column;
+}
+.qator{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+/* 1-qator */
+.bir{
+    width: 50px;
+    height: 50px;
+    background-color: palevioletred;
+    border-radius: 20px 0 0 0;
+}
+.ikki{
+    width: 50px;
+    height: 50px;
+    background-color: palevioletred;
+    border-radius: 0 20px 0 0;
+}
+.uch{
+    width: 50px;
+    height: 50px;
+    background-color: palevioletred;
+    border-radius: 0 0 20px 0;
+}
+.tor{
+    width: 50px;
+    height: 50px;
+    background-color: palevioletred;
+    border-radius: 0 0 0 20px;
+}
+/* 2-qator */
+.besh{
+    width: 50px;
+    height: 50px;
+    background-color:cornflowerblue;
+}
+.olti{
+    width: 50px;
+    height: 50px;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+}
+.yetti{
+    width: 50px;
+    height: 50px;
+    background-color:cornflowerblue;
+    border-radius: 20px;
+}
+.sakks{
+    width: 50px;
+    height: 50px;
+    background-color:cornflowerblue;
+    border-radius: 30px;
+}
+/* 3-qator */
+.toqqz{
+    width: 50px;
+    height: 50px;
+    background-color:blueviolet;
+}
+.on{
+    width: 50px;
+    height: 50px;
+    background-color:blueviolet;
+    border-radius: 5px;
+}
+.onbr{
+    width: 50px;
+    height: 50px;
+    background-color:blueviolet;
+    border-radius: 10px;
+}
+.onikki{
+    width: 50px;
+    height: 50px;
+    background-color:blueviolet;
+    border-radius: 25px;
+}
+/* 4-qator */
+.onuch{
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    border-radius: 10px 0 10px 0;
+}
+.ontor{
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    border-radius: 20px 0 20px 0;
+}
+.onbesh{
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    border-radius: 40px 0 40px 0;
+}
+.onolti{
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    border-radius: 50px 0 50px 0;
+}
+
+.qator img{
+    width: 120px;
+    height: 80px;
+}
+.con3{
+    margin: 0 150px;
+}
