@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+.con1{
+    width: 100%;
+}
+.container{
+    padding: 0 213px;
+}
+.top{
+    background-image: url(./Rectangle.png);
+    /* height: 540px; */
+    height: 640px;
+}
+.nav{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav button{
+    height: 50px;
+    width: 50px;
+    background-color: #F7654A;
+    border: none;
+    transition: ease-out 0.2s;
+}
+.nav button:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #f85336;
+}
+.logo{
+    cursor: pointer;
+}
+.top-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    padding-top: 112px;
+}
+.top-texts h1{
+    font-size: 64px;
+    width: 854px;
+    margin: 0;
+}
+.top-texts p{
+    margin: 0;
+    padding-bottom: 170px;
+}
+.absolute{
+    width: 800px;
+    height: 280px;
+    height: 200px;
+    display: flex;
+    padding: 57px 100px;
+    background-color: #F7F7F7;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 480px;
+    left: 185px;
+}
+.let{
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.let p{
+    margin: 0;
+}
+.proekts{
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.proekt{
+    display: flex;
+    gap: 30px;
+}
+.pro{
+    width: 350px;
+}
+.pro img{
+    padding-bottom: 45px;
+}
+.hr{
+    border: 3px solid #F7654A;
+    width: 55px;
+    border-radius: 25px;
+}
+.samiy{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    padding: 20px 130px;
+    background-color: #F7654A;
+    justify-content: space-between;
+}
+.left p{
+    color: #FFF;
+    margin: 0;
+}
+.right button{
+    width: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 49px;
+    background-color: #FFFFFF;
+    border: none;
+    transition: ease-out 0.2s;
+}
+.right button:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #ececec;
+}
+.right img{
+    margin-right: 10px;
+}
+.zanemaetsya{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zdanies{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.zdania{
+    background-color: #F7F7F7;
+    width: 350px;
+    height: 250px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ztb{
+    display: flex;
+    gap: 30px;
+}
+.photos{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0;
+}
+.photos img{
+    width: 455.4px;
+}
+.atveti{
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.atveti p{
+    color: #999999;
+}
+.atveti h3{
+    color: #F7654A;
+}
+.atveti h3{
+    display: flex;
+    align-items: center;
+}
+.atveti img{
+    padding-right: 5px;
+}
+.partner{
+    height: 260px;
+    background-color: #404149;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.partner h1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.partners{
+    display: flex;
+    gap: 65px;
+}
+.rabote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rabots{
+    display: flex;
+    gap: 30px;
+}
+.rabot{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 239px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+}
+.kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.kontakts{
+    display: flex;
+    gap: 30px;
+}
+.kon{
+    width: 222px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer{
+    height: 70px;
+    display: flex;
+    background-color: #404149;
+    color: #FFFFFF;
+    justify-content: space-around;
+    align-items: center ;
+}
