@@ -1,0 +1,213 @@
+.con1{
+    width: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    background-color: #afafaf;
+    width: 200px;
+    height: 200px;
+    border-radius: 46%;
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+}
+.eye-1, .eye-2{
+    width: 25px;
+    height: 25px;
+    background-color: #444;
+    position: absolute;
+    border-radius: 50%;
+}
+.eye-1{
+    left: 30px;
+    top: 80px;
+}
+.eye-2{
+    right: 30px;
+    top: 80px;
+}
+.qorachg{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 4px;
+}
+.eye-1:hover{
+    height: fit-content ;
+}
+.eye-1:hover .qorachg{
+    margin-bottom: 4px;
+}
+.eye-2:hover{
+    height: fit-content ;
+}
+.eye-2:hover .qorachg{
+    margin-bottom: 4px;
+}
+.qulo-left, .qulo-right{
+    width: 130px;   
+    height: 130px;
+    background-color: #afafaf;
+    border-radius: 50%;
+}
+.qulo-left{
+    position: absolute;
+    left: 30px;
+    animation: qulo1 1s infinite;
+}
+.qulo-right{
+    position: absolute;
+    right: 30px;
+    animation: qulo1 1s infinite;
+}
+.qulo-left2, .qulo-right2{
+    width: 94px;
+    height: 94px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    animation: qulo2 1s infinite;
+}
+.qulo-left2{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+.qulo-right2{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+}
+.nouse{
+    height: 70px;
+    width: 40px;
+    background-color: #444;
+    position: absolute;
+    left: 83px;
+    border-radius: 15px;
+    top: 100px;
+}
+.tochka1, .tochka2{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    border-radius: 5px;
+    top: 56px;
+}
+.tochka1{
+    left: 8px;
+}
+.tochka2{
+    right: 9px;
+}
+.body{
+    width: 220px;
+    height: 200px;
+    background-color: #afafaf;
+    position: absolute;
+    top: 180px;
+    border-radius: 45%;
+}
+.body2{
+    background-color: whitesmoke;
+    width: 150px;
+    height: 200px;
+    border-radius: 45%;
+    position: absolute;
+    left: 35px;
+}
+.oyo-1, .oyo-2{
+    width: 90px;
+    height: 110px;
+    background-color: #cccccc;
+    position: absolute;
+    z-index: 3;
+    border-radius: 45%;
+    top: 290px;
+}
+.oyo-2{
+    transform: rotate(20deg);
+    right: 80px;
+    animation: oyo2 2s infinite;
+}
+.oyo-1{
+    transform: rotate(-20deg);
+    left: 80px;
+    animation: oyo1 2s infinite;
+}
+.oyo1, .oyo2{
+    width: 90px;
+    height: 100px;
+    background-color: #afafaf;
+    position: absolute;
+    z-index: 3;
+    border-radius: 45%;
+    top: 10px;
+}
+@keyframes oyo2 {
+    0%{
+        transform: rotate(20deg);
+    }
+    25%{
+        transform: rotate(35deg);
+    }
+    50%{
+        transform: rotate(20deg);
+    }
+    75%{
+        transform: rotate(35deg);
+    }
+    100%{
+        transform: rotate(20deg);
+    }
+}
+@keyframes oyo1 {
+    0%{
+        transform: rotate(-20deg);
+    }
+    25%{
+        transform: rotate(-35deg);
+    }
+    50%{
+        transform: rotate(-20deg);
+    }
+    75%{
+        transform: rotate(-35deg);
+    }
+    100%{
+        transform: rotate(-20deg);
+    }
+}
+@keyframes qulo1 {
+    0%{
+        width: 130px;
+        height: 130px;
+    }
+    50%{
+        width: 145px;
+        height: 135px;
+    }
+    100%{
+        width: 130px;
+        height: 130px;
+    }
+}
+@keyframes qulo2 {
+    0%{
+        width: 94px;
+        height: 94px;
+    }
+    50%{
+        width: 99px;
+        height: 99px;
+    }
+    100%{
+        width: 94px;
+        height: 94px;
+    }
+}
